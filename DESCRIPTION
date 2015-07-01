@@ -1,0 +1,19 @@
+Package: alineR
+Type: Package
+Title: Alignment of Phonetic Sequence Using the 'ALINE' Algorithm
+Version: 1.0
+Date: 2015-07-01
+Authors@R: c(person('Sean', 'Downey', role = c("aut","cre"),email="sdowney2@umd.edu"),
+                     person('Guowei', 'Sun', role = "aut",email="gwsun@umd.edu"))
+Maintainer: Sean Downey <sdowney2@umd.edu>
+LazyData: true
+LazyLoad: true
+Description: Functions are provided to calculate the 'ALINE' Distance between a cognate pair. The score is based on phonetic features represented using the Unicode-compliant International Phonetic Alphabet (IPA). Parameterized features weights used to determine the optimal alignment and functions are provided to estimate optimum values.This project was funded by the National Science Foundation Cultural Anthropology Program (Grant number SBS-1030031) and the University of Maryland College of Behavioral and Social Sciences.
+License: GPL-3
+Depends: doMC,foreach
+NeedsCompilation: yes
+Packaged: 2015-07-10 17:58:00 UTC; gwsun
+Author: Sean Downey [aut, cre],
+  Guowei Sun [aut]
+Repository: CRAN
+Date/Publication: 2015-07-10 21:03:44
