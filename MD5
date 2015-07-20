@@ -1,5 +1,5 @@
-64b582caee85872183cbe0190ba2875a *DESCRIPTION
-b7696b3878f903bc442b0e3b200b8bf9 *NAMESPACE
+d207c1264f830f366f741e02bb97c361 *DESCRIPTION
+588b6b3b25ff3aa1d88d83be8c9fec18 *NAMESPACE
 3885c070931c5331f4dcbaf1c89b1909 *R/ALINE.segments.R
 9fd6b22ebc8014eaa96487bbdd034985 *R/ES.update.R
 5be6d446c4fb038487dccc2dc89b0064 *R/aligned_string.R
@@ -21,13 +21,14 @@ b9505053b395e6b0c829d148abf0dbb5 *R/show.map.R
 3151ab7574f769109b2797f4c1f7be0d *data/ALINE.map.rda
 505e53a6a676892a522f5acff58a5d15 *man/ALINE.map.Rd
 39b600623679ce14ca9e62ea7b7e1854 *man/ALINE.segments.Rd
-3062288a087d953c42c5c5fe2efce6c9 *man/aline-package.Rd
-e9a4754b80ff4dc30bf25720fb6a7e9d *man/aline.Rd
+adac9d14246e049bd1b512a9597373a3 *man/aline-package.Rd
+c7fb203c69c65fe6036376f7464cc779 *man/aline.Rd
 339b9860763c5648044b0851a14b8726 *man/decode.ALINE.Rd
 4c77fc9c4d855d4db13d51a404cb6aba *man/encode.ALINE.Rd
 da00d76075aa8629481a05db90bd9085 *man/features.plot.Rd
 a9d034312b286e7f52be5189c285cbe3 *man/generate.training.Rd
 13630387a03948071e92d84bd96b0742 *man/map.Rd
+e6bdd9c68948e0283d8cd3f606795a6f *man/optimization.GA.Rd
 5abb862ddbd879ac53ff7a2885002418 *man/optimize.features.Rd
 823ca5fe0b8aea9c80a32c62ef41f9fb *man/raw.alignment.Rd
 217ad9ab192828c20681f0be8c0f74dc *man/show.map.Rd

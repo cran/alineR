@@ -64,7 +64,7 @@ Sean Downey and Guowei Sun
 This function will issue warnings and drop unknown characters if an input word contains unmapped IPA symbols. If this happens, the warning can be eliminated by appending an additional IPA-ASCII character mapping %(see ALINE.map()).
 }
 \seealso{
-\code{\link{raw.alignment},\link{map}}
+ \code{\link{raw.alignment},\link{map}}
 }
 
 \examples{
@@ -73,7 +73,7 @@ y<-c(intToUtf8(c(418,109,108,97,116,952)),intToUtf8(c(100,105,110,110,105,114,97
 # For CRAN requirement, to see x and y, type x,y in R console
 x
 y
-aline(w1=x,w2=y)
+aline(w1=x,w2=y)   # A warning is returned because of unknown character
 
 # user substitution
 aline(w1=x,w2=y,m1=intToUtf8(418),m2="o")
