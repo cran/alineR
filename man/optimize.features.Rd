@@ -9,7 +9,7 @@ Runs a genetic algorithm to find optimal parameter settings based on expert alig
 }
 \usage{
 optimize.features(set, ranking, num = 200, step = 45, replication = 5, 
-    list = FALSE, parallel = TRUE, cores = 8) 
+    list = FALSE) 
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -25,10 +25,6 @@ the output from set.generation function, which is a two element list containing 
 \item{replication}{number of independent genetic algorithm optimizations.}
 
 \item{list}{Whether or not to return the entire result of the genetic algorithm which contains a big list of possible parameters and corresponding performance in each independent replication }
-
-\item{parallel}{ whether to run the GA optimization using parallelization.  }
-
-\item{cores}{ numbers of cores (if running with parallelization). }
 
 }
 \value{
@@ -51,11 +47,7 @@ M1<-generate.training(raw.data=data, search.size=100)
 
 # optimize features using expert determinations: 1,1,1
 optimize.features(set=M1, ranking=c(1,1,1),
-            num=20, step=5, replication=2, list=FALSE, parallel=FALSE)
-
-# or run using parallelization
-optimize.features(set=M1, ranking=c(1,1,1),
-            num=20, step=5, replication=2, list=FALSE, parallel=TRUE, cores=2)
+            num=20, step=5, replication=2, list=FALSE)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

@@ -6,7 +6,7 @@ map<-function(m1,m2){
   
   if(length(m1)!=length(m2)) stop("vector has different length")
   #ALINE.map<-NULL
-  #data(ALINE.map)
+  #data(ALINE.map,envir=environment())
   map<-ALINE.map
   #map<-show.map()
   Aline.v<-c('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z')

@@ -35,7 +35,7 @@ If TRUE, inlcude a 13th histogram for the SkipCost parameter.
 data<-data.frame(dog=c('dog','perro'),cat=c('cat','gato'),rat=c('rat','rata'))
 M1<-generate.training(raw.data=data,search.size=100,table=FALSE)
 M2<-optimize.features(set=M1,ranking=c(1,1,1),
-                     num=20,step=5,replication=2,list=TRUE,parallel=FALSE)
+                     num=20,step=5,replication=2,list=TRUE)
 features.plot(M2)
 }
 
