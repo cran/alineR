@@ -1,5 +1,5 @@
-d207c1264f830f366f741e02bb97c361 *DESCRIPTION
-588b6b3b25ff3aa1d88d83be8c9fec18 *NAMESPACE
+3ff9f531b3e3179cec45d5a44942014c *DESCRIPTION
+9f4c85d2356f81ec18a5ef41b5eaa989 *NAMESPACE
 3885c070931c5331f4dcbaf1c89b1909 *R/ALINE.segments.R
 9fd6b22ebc8014eaa96487bbdd034985 *R/ES.update.R
 5be6d446c4fb038487dccc2dc89b0064 *R/aligned_string.R
@@ -7,7 +7,7 @@ d207c1264f830f366f741e02bb97c361 *DESCRIPTION
 829445a01deb681e576065ef3ad4cd9d *R/crossover.R
 fa16e7d96063053b26a1108716e5c116 *R/decode.ALINE.R
 52d26a9d53a65e10cb2b33b7566a64c4 *R/encode.ALINE.R
-33ab7aa4885d6badb693dc0aff0cab16 *R/features.plot.R
+9b6402b6a4c651202a2d45a8aa7d6785 *R/features.plot.R
 27b649cbb7d226e0a798ce3b90111b8b *R/fitness_count.R
 22d292e9123ab92f991ad388f5af24ad *R/generate.training.R
 6b4c1a5cd2fd8b2ad5ac6a423c50cadc *R/map.R
@@ -25,7 +25,7 @@ adac9d14246e049bd1b512a9597373a3 *man/aline-package.Rd
 c7fb203c69c65fe6036376f7464cc779 *man/aline.Rd
 339b9860763c5648044b0851a14b8726 *man/decode.ALINE.Rd
 4c77fc9c4d855d4db13d51a404cb6aba *man/encode.ALINE.Rd
-da00d76075aa8629481a05db90bd9085 *man/features.plot.Rd
+dc037c9a03f442ecb8320b93d9167e3e *man/features.plot.Rd
 a9d034312b286e7f52be5189c285cbe3 *man/generate.training.Rd
 13630387a03948071e92d84bd96b0742 *man/map.Rd
 e6bdd9c68948e0283d8cd3f606795a6f *man/optimization.GA.Rd
@@ -34,8 +34,8 @@ e6bdd9c68948e0283d8cd3f606795a6f *man/optimization.GA.Rd
 217ad9ab192828c20681f0be8c0f74dc *man/show.map.Rd
 18bd5c21506ecd77b00bfdb1198cd0a9 *src/Stack.cpp
 307cc31eb8f1cdd5f3fb0e687db62cb5 *src/Stack.h
-9dab85a8f6012895916f5dee41040f28 *src/Word.cpp
-a88e553612c34d6fe34b7b1cf06d0473 *src/Word.h
+64a4105424b95289cd0d67bd7457d57d *src/Word.cpp
+5fc10ecc51df41663ba64ddb46170304 *src/Word.h
 ace1fc426d1ee9cb374dd87673f14f47 *src/alineR.cpp
 3fbca4e5ef6f8ddb166957c8a3197f62 *src/glob.h
 ae9f7c4ef8b21d900cdfd732060604d7 *src/wagner.cpp

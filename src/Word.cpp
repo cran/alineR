@@ -350,6 +350,7 @@ int ladDist( FP p1, FP p2, int vec[12] )
 // compute score for substitution
 int sigmaSub( Word *wA, short iA, Word *wB, short iB, int vec[12] )
 {
+    if(iA==0 || iB==0) return NoScore; //bug fix
     FP pA = wA->phon[wA->len-iA];
     FP pB = wB->phon[wB->len-iB];
     
@@ -369,7 +370,7 @@ int sigmaExp( Word *wA, short iA, Word *wB, short i1B, short i2B, int vec[12] )
     // bug fix 
     
     //for(int test=0;test<12;test++) {printf("%d",coeff[test]);}; printf("\n");
-    
+    if(iA==0 || i2B==0) return NoScore; //bug fix
     
     if ( i1B == 0 )
         return NoScore;

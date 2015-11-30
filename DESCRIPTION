@@ -1,7 +1,7 @@
 Package: alineR
 Type: Package
 Title: Alignment of Phonetic Sequences Using the 'ALINE' Algorithm
-Version: 1.1.1
+Version: 1.1.2
 Date: 2015-07-20
 Authors@R: c(person('Sean', 'Downey', role = c("aut","cre"),email="sdowney2@umd.edu"),
                      person('Guowei', 'Sun', role = "aut",email="gwsun@umd.edu"))
@@ -11,8 +11,8 @@ LazyLoad: true
 Description: Functions are provided to calculate the 'ALINE' Distance between words. The score is based on phonetic features represented using the Unicode-compliant International Phonetic Alphabet (IPA). Parameterized features weights are used to determine the optimal alignment and functions are provided to estimate optimum values.
 License: GPL-3
 NeedsCompilation: yes
-Packaged: 2015-08-05 16:26:12 UTC; gwsun
+Packaged: 2015-11-30 15:04:16 UTC; gwsun
 Author: Sean Downey [aut, cre],
   Guowei Sun [aut]
 Repository: CRAN
-Date/Publication: 2015-08-06 07:15:52
+Date/Publication: 2015-11-30 23:57:18

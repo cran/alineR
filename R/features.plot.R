@@ -1,8 +1,8 @@
 features.plot <-
-function(R,first=FALSE,para=c(5,40,50,10,10,10,10,5,1,5,5,5,10),skip=FALSE){
+function(R,first=FALSE,para=c(5,40,50,10,10,10,10,5,1,5,5,5,10),skip=FALSE,column=4,row=3){
   
-  if(skip==TRUE) par(mfrow=c(4,4))
-  if(skip==FALSE) par(mfrow=c(4,3))
+  if(skip==TRUE) par(mfrow=c(row+1,column))
+  if(skip==FALSE) par(mfrow=c(row,column))
   
   Syllabic<-vector()
   Place<-vector()
@@ -50,7 +50,7 @@ function(R,first=FALSE,para=c(5,40,50,10,10,10,10,5,1,5,5,5,10),skip=FALSE){
       High<-c(High,R[[i]]$optimized_parameters[,10])
       Back<-c(Back,R[[i]]$optimized_parameters[,11])
       Round<-c(Round,R[[i]]$optimized_parameters[,12])
-      SkipCost<-c(Round,R[[i]]$optimized_parameters[,13])
+      SkipCost<-c(SkipCost,R[[i]]$optimized_parameters[,13])
     }
   }
   
@@ -59,29 +59,29 @@ function(R,first=FALSE,para=c(5,40,50,10,10,10,10,5,1,5,5,5,10),skip=FALSE){
   hist(Syllabic,xlim=c(0,100))
   abline(v=c(para[1],m[1]),lwd=1.5,col=c("red","purple"))
   hist(Place,xlim=c(0,100))
-  abline(v=c(para[1],m[2]),lwd=1.5,col=c("red","purple"))
+  abline(v=c(para[2],m[2]),lwd=1.5,col=c("red","purple"))
   hist(Stop,xlim=c(0,100))
-  abline(v=c(para[1],m[3]),lwd=1.5,col=c("red","purple"))
+  abline(v=c(para[3],m[3]),lwd=1.5,col=c("red","purple"))
   hist(Voice,xlim=c(0,100))
-  abline(v=c(para[1],m[4]),lwd=1.5,col=c("red","purple"))
+  abline(v=c(para[4],m[4]),lwd=1.5,col=c("red","purple"))
   hist(Nasal,xlim=c(0,100))
-  abline(v=c(para[1],m[5]),lwd=1.5,col=c("red","purple"))
+  abline(v=c(para[5],m[5]),lwd=1.5,col=c("red","purple"))
   hist(Retroflex,xlim=c(0,100))
-  abline(v=c(para[1],m[6]),lwd=1.5,col=c("red","purple"))
+  abline(v=c(para[6],m[6]),lwd=1.5,col=c("red","purple"))
   hist(Lateral,xlim=c(0,100))
-  abline(v=c(para[1],m[7]),lwd=1.5,col=c("red","purple"))
+  abline(v=c(para[7],m[7]),lwd=1.5,col=c("red","purple"))
   hist(Aspirated,xlim=c(0,100))
-  abline(v=c(para[1],m[8]),lwd=1.5,col=c("red","purple"))
+  abline(v=c(para[8],m[8]),lwd=1.5,col=c("red","purple"))
   hist(Long,xlim=c(0,100))
-  abline(v=c(para[1],m[9]),lwd=1.5,col=c("red","purple"))
+  abline(v=c(para[9],m[9]),lwd=1.5,col=c("red","purple"))
   hist(High,xlim=c(0,100))
-  abline(v=c(para[1],m[10]),lwd=1.5,col=c("red","purple"))
+  abline(v=c(para[10],m[10]),lwd=1.5,col=c("red","purple"))
   hist(Back,xlim=c(0,100))
-  abline(v=c(para[1],m[11]),lwd=1.5,col=c("red","purple"))
+  abline(v=c(para[11],m[11]),lwd=1.5,col=c("red","purple"))
   hist(Round,xlim=c(0,100))
-  abline(v=c(para[1],m[12]),lwd=1.5,col=c("red","purple"))
+  abline(v=c(para[12],m[12]),lwd=1.5,col=c("red","purple"))
   if(skip==TRUE){
     hist(SkipCost,xlim=c(0,100))
-    abline(v=c(para[1],m[13]),lwd=1.5,col=c("red","purple"))
+    abline(v=c(para[13],m[13]),lwd=1.5,col=c("red","purple"))
   }
 }
