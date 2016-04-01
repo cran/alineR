@@ -38,7 +38,7 @@ map(intToUtf8(361),"dd") #invalid
 }
 
 \note{
-Valid ASCII ALINE encodings are defined in Kondrak 1999, pp. 19. Allowable lowercase letters are ["a"-"z"] and allowable uppercase modifiers are ["D", "V", "X", "P", "S", "N", "A", "H", "F", "C","Z"]. If an IPA character is mapped to an invalid ASCII code a warning is issued and the mapping is not accepted.
+Valid ASCII ALINE encodings are defined in Kondrak 1999, pp. 19. Allowable lowercase letters are ["a"-"z"] and allowable uppercase modifiers are: _D_ental, palato-al_V_olar, retrofle_X_, _P_alatal, _S_pirant, _N_asal, _A_spirated, lo_H_ng, _F_ront, _C_entral. If an IPA character is mapped to an invalid ASCII code a warning is issued and the mapping is not accepted.
 }
 
 \seealso{

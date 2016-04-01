@@ -1,0 +1,12 @@
+
+bibentry(
+  bibtype="Article",
+  header="To cite package 'alineR' in publication use: ",
+  textVersion = "Downey, Sean S and Sun, Guowei and Norquest, Peter, AlineR: An R Package for Optimizing Feature-Weighted Alignments and Linguistic Distances (March 7, 2016). Available at SSRN: http://ssrn.com/abstract=2744032",
+  title="AlineR: An R Package for Optimization Feature-Weighted Alignments and Liguistic Dsitances",
+  journal="Available at SSRN: http://ssrn.com/abstract=2744032",
+  author=c(person("Downey","Sean"),person("Sun","Guowei"),person("Norquest","Peter")),
+  year=2016,
+  url="https://CRAN.R-project.org/package=alineR",
+  note="R Package Version 1.1.2"
+)

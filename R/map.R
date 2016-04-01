@@ -39,7 +39,7 @@ map<-function(m1,m2){
       U.Val=utf8ToInt(m1[i]),
       A.Val=f(m2[i]),
       stringsAsFactors=FALSE, row.names=NULL)
-      map<-rbind(map,m, deparse.level = 0)
+      map<-rbind(m,map, deparse.level = 0)   # bug found by Vincent
     }
     else{
       message(paste("Invalide mapping:",m1[i],"to",m2[i]))

@@ -1,4 +1,4 @@
-3ff9f531b3e3179cec45d5a44942014c *DESCRIPTION
+090195809b439dc4c2d51cc6c0000959 *DESCRIPTION
 9f4c85d2356f81ec18a5ef41b5eaa989 *NAMESPACE
 3885c070931c5331f4dcbaf1c89b1909 *R/ALINE.segments.R
 9fd6b22ebc8014eaa96487bbdd034985 *R/ES.update.R
@@ -10,15 +10,16 @@ fa16e7d96063053b26a1108716e5c116 *R/decode.ALINE.R
 9b6402b6a4c651202a2d45a8aa7d6785 *R/features.plot.R
 27b649cbb7d226e0a798ce3b90111b8b *R/fitness_count.R
 22d292e9123ab92f991ad388f5af24ad *R/generate.training.R
-6b4c1a5cd2fd8b2ad5ac6a423c50cadc *R/map.R
+f7977b9e822842aadd998f1f1e6f05b7 *R/map.R
 aa8ddb6e02f7ff799e30ffe6960027c9 *R/optimization.GA.R
 d7ff54265dd23c6308adaf0098834c03 *R/optimize.features.R
 872a229b117a12f312463196544a7b11 *R/random_parameter.R
 45673cc119efbb35e5e6e5bdf7f752c2 *R/raw.alignment.R
 030012ac71eaec30337cf371e573e78c *R/selection.R
 b9505053b395e6b0c829d148abf0dbb5 *R/show.map.R
-3151ab7574f769109b2797f4c1f7be0d *R/sysdata.rda
-3151ab7574f769109b2797f4c1f7be0d *data/ALINE.map.rda
+58c4d67cedd995f80cb510073886cd2d *R/sysdata.rda
+58c4d67cedd995f80cb510073886cd2d *data/ALINE.map.rda
+46c27bc9768814333303624eaf7dddb2 *inst/CITATION
 505e53a6a676892a522f5acff58a5d15 *man/ALINE.map.Rd
 39b600623679ce14ca9e62ea7b7e1854 *man/ALINE.segments.Rd
 adac9d14246e049bd1b512a9597373a3 *man/aline-package.Rd
@@ -27,7 +28,7 @@ c7fb203c69c65fe6036376f7464cc779 *man/aline.Rd
 4c77fc9c4d855d4db13d51a404cb6aba *man/encode.ALINE.Rd
 dc037c9a03f442ecb8320b93d9167e3e *man/features.plot.Rd
 a9d034312b286e7f52be5189c285cbe3 *man/generate.training.Rd
-13630387a03948071e92d84bd96b0742 *man/map.Rd
+5fcbb797386e8ccd748ed52db0417901 *man/map.Rd
 e6bdd9c68948e0283d8cd3f606795a6f *man/optimization.GA.Rd
 5abb862ddbd879ac53ff7a2885002418 *man/optimize.features.Rd
 823ca5fe0b8aea9c80a32c62ef41f9fb *man/raw.alignment.Rd
