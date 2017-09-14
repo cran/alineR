@@ -2,7 +2,7 @@ export("aline","raw.alignment","encode.ALINE","decode.ALINE","map","features.plo
 #export("aligned_string","random_parameter","crossover","ES.update","fitness_count","selection")
 #export("Al.alineR","data.alineR","raw.data.alineR","candidate.alignment.alineR","ranking.alineR")
 export("generate.training","optimize.features","ALINE.map","optimization.GA")
-useDynLib("alineR")
+useDynLib("alineR",.registration=TRUE)
 importFrom(graphics,par,hist,abline,legend)
 importFrom(utils,write.csv)
 importFrom(stats,median)

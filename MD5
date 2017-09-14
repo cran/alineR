@@ -1,5 +1,5 @@
-090195809b439dc4c2d51cc6c0000959 *DESCRIPTION
-9f4c85d2356f81ec18a5ef41b5eaa989 *NAMESPACE
+935f1b4f229bf935894fd28df9dd2a83 *DESCRIPTION
+012e1cbb4e1bf691a76806eded0d4329 *NAMESPACE
 3885c070931c5331f4dcbaf1c89b1909 *R/ALINE.segments.R
 9fd6b22ebc8014eaa96487bbdd034985 *R/ES.update.R
 5be6d446c4fb038487dccc2dc89b0064 *R/aligned_string.R
@@ -19,10 +19,10 @@ d7ff54265dd23c6308adaf0098834c03 *R/optimize.features.R
 b9505053b395e6b0c829d148abf0dbb5 *R/show.map.R
 58c4d67cedd995f80cb510073886cd2d *R/sysdata.rda
 58c4d67cedd995f80cb510073886cd2d *data/ALINE.map.rda
-46c27bc9768814333303624eaf7dddb2 *inst/CITATION
+2082738e84aa2851c0c885cec06c0104 *inst/CITATION
 505e53a6a676892a522f5acff58a5d15 *man/ALINE.map.Rd
 39b600623679ce14ca9e62ea7b7e1854 *man/ALINE.segments.Rd
-adac9d14246e049bd1b512a9597373a3 *man/aline-package.Rd
+20f8650b9171181072aeb857665d1feb *man/aline-package.Rd
 c7fb203c69c65fe6036376f7464cc779 *man/aline.Rd
 339b9860763c5648044b0851a14b8726 *man/decode.ALINE.Rd
 4c77fc9c4d855d4db13d51a404cb6aba *man/encode.ALINE.Rd
@@ -39,5 +39,6 @@ e6bdd9c68948e0283d8cd3f606795a6f *man/optimization.GA.Rd
 5fc10ecc51df41663ba64ddb46170304 *src/Word.h
 ace1fc426d1ee9cb374dd87673f14f47 *src/alineR.cpp
 3fbca4e5ef6f8ddb166957c8a3197f62 *src/glob.h
+7c22b1b500cab25872924e218f1645f5 *src/registerDynamicsSymbol.c
 ae9f7c4ef8b21d900cdfd732060604d7 *src/wagner.cpp
 f9c9d0296d44a490b237e8478a03e931 *src/wagner.h

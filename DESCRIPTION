@@ -1,18 +1,28 @@
 Package: alineR
 Type: Package
 Title: Alignment of Phonetic Sequences Using the 'ALINE' Algorithm
-Version: 1.1.3
-Date: 2015-07-20
-Authors@R: c(person('Sean', 'Downey', role = c("aut","cre"),email="sdowney2@umd.edu"),
-                     person('Guowei', 'Sun', role = "aut",email="gwsun@umd.edu"))
-Maintainer: Sean Downey <sdowney2@umd.edu>
+Version: 1.1.4
+Date: 2017-09-12
+Authors@R: c(person('Sean', 'Downey', role = c("aut","cre"),email="sean@codexdata.com"),
+                     person('Guowei', 'Sun', role = "aut",email="gwsun@umd.edu"),
+                     person('Greg', 'Kondrak', role = "cph", comment="Copyright holder of original ALINE algorithm C++ source code included in package."))
+Maintainer: Sean Downey <sean@codexdata.com>
 LazyData: true
 LazyLoad: true
-Description: Functions are provided to calculate the 'ALINE' Distance between words. The score is based on phonetic features represented using the Unicode-compliant International Phonetic Alphabet (IPA). Parameterized features weights are used to determine the optimal alignment and functions are provided to estimate optimum values.
+Description: Functions are provided to calculate the 'ALINE' Distance between words as per 
+    (Kondrak 2000) and (Downey, Hallmark, Cox, Norquest, & Lansing, 2008, 
+    <doi:10.1080/09296170802326681>). The score is based on phonetic features represented 
+    using the Unicode-compliant International Phonetic Alphabet (IPA). Parameterized 
+    features weights are used to determine the optimal alignment and functions are
+    provided to estimate optimum values using a genetic algorithm and supervised 
+    learning. See (Downey, Sun, and Norquest 2017, 
+    <https://journal.r-project.org/archive/2017/RJ-2017-005/index.html>.
 License: GPL-3
 NeedsCompilation: yes
-Packaged: 2016-03-23 18:11:06 UTC; guowei
-Author: Sean Downey [aut, cre],
-  Guowei Sun [aut]
+Packaged: 2017-09-13 20:26:48 UTC; seandowney
 Repository: CRAN
-Date/Publication: 2016-04-01 16:40:25
+Date/Publication: 2017-09-14 17:18:26 UTC
+Author: Sean Downey [aut, cre],
+  Guowei Sun [aut],
+  Greg Kondrak [cph] (Copyright holder of original ALINE algorithm C++
+    source code included in package.)
